@@ -22,6 +22,10 @@ namespace InstanceScans.Controllers
         {
             return View();
         }
+        public IActionResult TermsOfUsage() 
+        { 
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
