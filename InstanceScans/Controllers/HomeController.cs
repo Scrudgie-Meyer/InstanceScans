@@ -22,8 +22,14 @@ namespace InstanceScans.Controllers
         {
             return View();
         }
+
         public IActionResult TermsOfUsage() 
         { 
+            return View();
+        }
+
+        public IActionResult CopyrightAct()
+        {
             return View();
         }
 
